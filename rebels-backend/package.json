@@ -1,0 +1,28 @@
+{
+  "name": "star-wars-rebels-api",
+  "version": "1.0.0",
+  "description": "API pour l'Alliance Rebelle - Recherche dans la base de données de l'Empire",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "star-wars",
+    "api",
+    "rebels",
+    "swapi"
+  ],
+  "author": "Alliance Rebelle",
+  "license": "ISC"
+}
