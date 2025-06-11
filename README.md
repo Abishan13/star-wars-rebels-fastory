@@ -12,8 +12,6 @@
 
 *Test technique réalisé pour Fastory*
 
-[🚀 Demo Live](#) • [📖 Documentation](#installation) • [🛠️ Installation](#installation)
-
 </div>
 
 ---
@@ -168,34 +166,6 @@ Au lancement, l'application charge automatiquement une sélection d'éléments d
 | 🚗 **Vehicles** | Véhicules terrestres | Zap |
 | 🚀 **Starships** | Vaisseaux spatiaux | Rocket |
 
-## 🎯 Réalisations du Test Technique
-
-### ✅ Étape 1 - Backend (Obligatoire)
-- [x] Création d'un back-end Node.js
-- [x] Récupération des données SWAPI
-- [x] Endpoint de recherche sur toutes les catégories
-- [x] API adaptée aux besoins du frontend
-
-### ✅ Étape 1 - Backend (Optionnel)
-- [x] Système d'authentification Luke/DadSucks
-- [x] Utilisation d'Hapi.js
-- [x] Gestion d'erreurs robuste
-- [x] Documentation complète des endpoints
-
-### ✅ Étape 2 - Frontend (Obligatoire)
-- [x] Interface React moderne
-- [x] Champ de recherche fonctionnel
-- [x] Affichage en liste des résultats
-- [x] Fiches détaillées avec informations de base
-
-### ✅ Étape 2 - Frontend (Optionnel)
-- [x] Fiches ultra détaillées
-- [x] Affichage différencié par type de données
-- [x] Système de filtres par catégorie
-- [x] Authentification avec l'API
-- [x] Design immersif Star Wars
-- [x] Debounce pour optimiser les recherches
-- [x] Architecture fonctionnelle et immutable
 
 ## 🚀 Optimisations Techniques
 
@@ -245,20 +215,6 @@ curl -X POST http://localhost:3001/auth/search \
   -d '{"username":"Luke","password":"DadSucks","query":"vader"}'
 ```
 
-## 🎨 Aperçu Visuel
-
-### Interface Principale
-- **Header** avec branding Alliance Rebelle et authentification
-- **Barre de recherche** avec icône et loader animé
-- **Système de filtres** expansible
-- **Grille de cartes** responsive avec hover effects
-
-### Thématique Star Wars
-- **Palette de couleurs** : Noir, bleu, rouge/orange pour l'Alliance
-- **Typographie** : Gradients colorés pour les titres
-- **Animations** : Étoiles scintillantes, transitions fluides
-- **Icônes** : Spécialisées par catégorie avec couleurs distinctes
-
 ## 🔮 Évolutions Possibles
 
 - [ ] **Router React** pour navigation directe
@@ -267,20 +223,6 @@ curl -X POST http://localhost:3001/auth/search \
 - [ ] **Tests unitaires** Jest/React Testing Library
 - [ ] **PWA** avec service worker
 - [ ] **Déploiement** Vercel/Netlify + Heroku
-
-## 📝 Notes Techniques
-
-### Contraintes Respectées
-- ❌ **swapi-node prohibé** : Utilisation d'axios direct
-- ✅ **Hapi.js utilisé** : Framework backend recommandé
-- ✅ **React fonctionnel** : Hooks et composants fonctionnels
-- ✅ **Immutabilité** : Pas de mutations d'état direct
-
-### Points d'Attention
-- **CORS configuré** pour développement local
-- **Gestion d'erreurs** robuste avec fallbacks
-- **API Rate Limiting** : Pause entre requêtes
-- **Sécurité** : Validation des entrées utilisateur
 
 ## 👨‍💻 Développeur
 
