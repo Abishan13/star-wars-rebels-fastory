@@ -228,7 +228,7 @@ curl -X POST http://localhost:3001/auth/search \
 
 **Abishan** - Développeur Full Stack
 - GitHub: [@Abishan13](https://github.com/Abishan13)
-- Email: [votre-email@example.com]
+- Email: [arul.abishanpro@gmail.com]
 
 ---
 
@@ -236,7 +236,7 @@ curl -X POST http://localhost:3001/auth/search \
 
 **Que la Force soit avec vous !** ⭐
 
-*Ce projet a été réalisé avec passion pour démontrer mes compétences en développement full-stack dans l'univers Star Wars.*
+*Ce projet a été réalisé pour démontrer mes compétences en développement full-stack dans l'univers Star Wars.*
 
 ![May the Force be with you](https://img.shields.io/badge/May%20the%20Force-be%20with%20you-FFE81F?style=for-the-badge&logo=starwars&logoColor=black)
 
